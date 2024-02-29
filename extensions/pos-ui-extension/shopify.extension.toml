@@ -1,0 +1,8 @@
+type = "pos_ui_extension"
+name = "pos-ui-extension"
+description = "pos-ui-extension"
+
+extension_points = [
+  'pos.home.tile.render',
+  'pos.home.modal.render'
+]
